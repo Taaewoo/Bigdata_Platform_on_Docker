@@ -17,3 +17,9 @@ $ docker compose up -d
 $ cd nifi
 $ docker compose up -f nifi-hdfs-compose.yml -d
 ~~~
+
+## HDFS namenode HA
+~~~
+$ cd namenode-ha
+$ docker compose up -d
+~~~
