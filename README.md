@@ -1,5 +1,10 @@
 # Bigdata Platform on Docker
 
+## Git Clone
+~~~
+$ git clone https://github.com/Taaewoo/Bigdata_Platform_on_Docker.git
+~~~
+
 ## Kafka + Zookeeper
 ~~~
 $ cd kafka
