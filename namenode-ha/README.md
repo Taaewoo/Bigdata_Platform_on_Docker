@@ -1,6 +1,6 @@
 # HDFS namenode HA 구성하기
 
-## HDFS
+## HDFS namenode HA
 ~~~
 $ docker compose up -d
 ~~~
