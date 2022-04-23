@@ -5,6 +5,8 @@
 $ git clone https://github.com/Taaewoo/Bigdata_Platform_on_Docker.git
 ~~~
 
+## Bigdata Components
+
 ### Kafka + Zookeeper
 ~~~
 $ cd kafka
