@@ -94,3 +94,18 @@ services:
       KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: INTERNAL:PLAINTEXT,EXTERNAL:PLAINTEXT
       KAFKA_INTER_BROKER_LISTENER_NAME: INTERNAL
 
+  kafka-manager:
+      image: hlebalbau/kafka-manager:latest
+      restart: on-failure
+      ports:
+        - "9000:9000"
+      depends_on:
+        - kafka-1
+        - kafka-2
+        - kafka-3
+        - zookeeper-1
+        - zookeeper-2
+        - zookeeper-3
+      environment:
+        ZK_HOSTS: zookeeper-1:12181,zookeeper-2:12181,zookeeper-3:12181
+        APPLICATION_SECRET: "random-secret"
