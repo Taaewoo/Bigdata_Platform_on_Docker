@@ -14,6 +14,7 @@ $ docker compose up -d
 ~~~
 
 ### Airflow
+- Airflow Web : [http:localhost:18080](http:localhost:18080)
 ~~~
 $ cd airflow
 $ mkdir ./dags ./logs ./plugins
@@ -21,7 +22,7 @@ $ echo -e "AIRFLOW_UID=$(id -u)\nAIRFLOW_GID=0" > .env
 $ docker-compose up airflow-init
 $ docker compose up -d
 ~~~
-Airflow Web : (http:localhost:18080)
+
 
 ### NiFi + Zookeeper
 ~~~
