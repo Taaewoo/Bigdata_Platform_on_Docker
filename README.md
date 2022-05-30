@@ -8,6 +8,7 @@ $ git clone https://github.com/Taaewoo/Bigdata_Platform_on_Docker.git
 ## Bigdata Components
 
 ### Kafka + Zookeeper
+- Kafka Manager Web : [http:localhost:9000](http:localhost:9000)
 ~~~
 $ cd kafka
 $ docker compose up -d
