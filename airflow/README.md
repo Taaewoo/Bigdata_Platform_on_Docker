@@ -1,6 +1,7 @@
 # Airflow 클러스터 구성하기
 
 ### Airflow
+- Airflow Web : [http:localhost:18080](http:localhost:18080)
 ~~~
 $ cd airflow
 $ mkdir ./dags ./logs ./plugins
