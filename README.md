@@ -33,6 +33,7 @@ $ docker compose up -d
 ~~~
 
 ### NiFi + Zookeeper + HDFS
+- NiFi Web : [http:localhost:6980](http:localhost:6980)
 ~~~
 $ cd nifi
 $ docker compose up -f nifi-hdfs-compose.yml -d
