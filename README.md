@@ -39,6 +39,13 @@ $ cd nifi
 $ docker compose up -f nifi-hdfs-compose.yml -d
 ~~~
 
+### Spark + HDFS
+~~~
+$ cd spark
+$ mkdir -p data/namenode
+$ mkdir -p data/datanode
+~~~
+
 ### HDFS namenode HA
 ~~~
 $ cd namenode-ha
