@@ -8,12 +8,14 @@ $ git clone https://github.com/Taaewoo/Bigdata_Platform_on_Docker.git
 ## Bigdata Components
 
 ### Kafka + Zookeeper
+- Kafka Manager Web : [http:localhost:9000](http:localhost:9000)
 ~~~
 $ cd kafka
 $ docker compose up -d
 ~~~
 
 ### Airflow
+- Airflow Web : [http:localhost:18080](http:localhost:18080)
 ~~~
 $ cd airflow
 $ mkdir ./dags ./logs ./plugins
@@ -22,13 +24,16 @@ $ docker-compose up airflow-init
 $ docker compose up -d
 ~~~
 
+
 ### NiFi + Zookeeper
+- NiFi Web : [http:localhost:6980](http:localhost:6980)
 ~~~
 $ cd nifi
 $ docker compose up -d
 ~~~
 
 ### NiFi + Zookeeper + HDFS
+- NiFi Web : [http:localhost:6980](http:localhost:6980)
 ~~~
 $ cd nifi
 $ docker compose up -f nifi-hdfs-compose.yml -d
