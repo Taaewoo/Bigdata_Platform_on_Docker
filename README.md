@@ -44,6 +44,7 @@ $ docker compose up -f nifi-hdfs-compose.yml -d
 $ cd spark
 $ mkdir -p data/namenode
 $ mkdir -p data/datanode
+$ docker compose up -d
 ~~~
 
 ### HDFS namenode HA
