@@ -39,7 +39,7 @@ $ cd nifi
 $ docker compose up -f nifi-hdfs-compose.yml -d
 ~~~
 
-### Spark + HDFS
+### Spark + HDFS + Hive
 - Spark Master Web : [http:localhost:8082](http:localhost:8082)
 ~~~
 $ cd spark
