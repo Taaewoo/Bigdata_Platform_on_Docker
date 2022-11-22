@@ -1,4 +1,4 @@
-### Spark + HDFS
+### Spark + HDFS + Hive
 - Spark Master Web : [http:localhost:8082](http:localhost:8082)
 ~~~
 $ cd spark
