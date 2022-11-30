@@ -46,6 +46,7 @@ $ cd spark
 $ mkdir -p data/namenode
 $ mkdir -p data/datanode
 $ mkdir -p spark_dir
+$ mkdir -p hive_dir
 $ docker compose up -d
 ~~~
 
